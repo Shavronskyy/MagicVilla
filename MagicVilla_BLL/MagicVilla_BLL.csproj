@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DTO\Account\" />
+    <Folder Include="DTO\VillaNumber\" />
+    <Folder Include="DTO\Villa\" />
+    <Folder Include="DTO\Users\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Mapping\User\" />
+    <Folder Include="Mapping\VillaNumber\" />
+    <Folder Include="Mapping\Villa\" />
+    <Folder Include="MediatR\Account\Login\" />
+    <Folder Include="MediatR\Account\Token\" />
+    <Folder Include="MediatR\Account\Register\" />
+    <Folder Include="MediatR\VillaNumber\GetAllVillaNumbers\" />
+    <Folder Include="MediatR\VillaNumber\GetVillaNumberById\" />
+    <Folder Include="MediatR\VillaNumber\CreateVillaNumber\" />
+    <Folder Include="MediatR\VillaNumber\DeleteVillaNumber\" />
+    <Folder Include="MediatR\VillaNumber\UpdateVillaNumber\" />
+    <Folder Include="MediatR\Villa\GetVillas\" />
+    <Folder Include="MediatR\Villa\GetVillaById\" />
+    <Folder Include="MediatR\Villa\CreateVilla\" />
+    <Folder Include="MediatR\Villa\DeleteVilla\" />
+    <Folder Include="MediatR\Villa\UpdatePartialVilla\" />
+    <Folder Include="MediatR\Villa\UpdateVilla\" />
+    <Folder Include="Services\Villa\" />
+    <Folder Include="Services\VillaNumber\" />
+    <Folder Include="Validations\" />
+    <Folder Include="Util\" />
+    <Folder Include="Specification\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+</Project>

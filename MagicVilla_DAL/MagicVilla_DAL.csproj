@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\VillaNumber\" />
+    <Folder Include="Entities\Villa\" />
+    <Folder Include="Enums\" />
+    <Folder Include="InitialData\" />
+    <Folder Include="Persistence\Configurations\" />
+    <Folder Include="Persistence\Converters\" />
+  </ItemGroup>
+
+</Project>
